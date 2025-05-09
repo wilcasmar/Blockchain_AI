@@ -24,7 +24,7 @@ CREATE DATABASE data_security;
 ```
 After creating the database, you can create tables and import the necessary datasets as required for your project.
 
-3. Install Node.js and Blockchain Dependencies
+### 3. Install Node.js and Blockchain Dependencies
 To interact with the blockchain network, you will need to install Node.js and some additional dependencies like Web3.js or Ethers.js.
 
 Install Node.js from here.
@@ -39,7 +39,7 @@ For Ethereum, you can use Hardhat or Truffle to deploy and test smart contracts:
 ```bash
 npm install --save-dev hardhat
 ```
-4. Set Up and Train AI Model
+### 4. Set Up and Train AI Model
 The AI model is used for detecting anomalies in the data. You’ll need to set up a Python environment and install dependencies:
 
 Install Python from here.
@@ -51,7 +51,7 @@ pip install numpy pandas scikit-learn tensorflow pyTorch
 ```
 Train your AI model using the dataset and ensure it can detect anomalies.
 
-5. Deploy Blockchain Smart Contracts
+### 5. Deploy Blockchain Smart Contracts
 If using Ethereum, deploy smart contracts to the blockchain:
 
 Write and deploy smart contracts using Solidity.
@@ -61,7 +61,7 @@ For Ethereum, use Truffle or Hardhat:
 ```bash
 npx hardhat run scripts/deploy.js --network <your-network>
 ```
-6. Run the Application
+### 6. Run the Application
 Once everything is set up, you can start your application. Run the frontend using:
 
 ```bash
